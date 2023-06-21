@@ -1,7 +1,11 @@
 import React from 'react';
-import { SparklineComponent, Inject, SparklineTooltip } from '@syncfusion/ej2-react-charts';
+import {
+  SparklineComponent,
+  Inject,
+  SparklineTooltip,
+} from '@syncfusion/ej2-react-charts';
 
-class SparkLine extends React.PureComponent {
+class SparkLineComp extends React.PureComponent {
   render() {
     const { id, height, width, color, data, type, currentColor } = this.props;
 
@@ -34,4 +38,4 @@ class SparkLine extends React.PureComponent {
   }
 }
 
-export default SparkLine;
+export default SparkLineComp;
